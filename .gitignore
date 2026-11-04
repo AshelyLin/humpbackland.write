@@ -1,3 +1,30 @@
-﻿public/
-resources/_gen/
+﻿# ===== Hugo 建置產物 =====
+/public/
+/resources/_gen/
+/assets/jsconfig.json
 .hugo_build.lock
+hugo_stats.json
+
+# ===== Node（主題有用到 npm 時）=====
+node_modules/
+package-lock.json.bak
+npm-debug.log*
+yarn-error.log
+
+# ===== 環境變數 / 機密 =====
+.env
+.env.*
+
+# ===== macOS =====
+.DS_Store
+._*
+
+# ===== Windows =====
+Thumbs.db
+desktop.ini
+
+# ===== 編輯器 =====
+.vscode/
+.idea/
+*.swp
+*~
